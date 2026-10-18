@@ -1,0 +1,73 @@
+body {
+    background-image:url(background.jpg);
+    color:white;
+    background-position-y: -520px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1 {
+    text-align:center;
+}
+
+p {
+    text-align:center;
+}
+
+.boutons {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.Loïc,
+.David {
+    width: 300px;
+    text-align: center;
+}
+
+.Loïc button {
+    border-radius: 200px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    box-shadow: 0 0 10px red;
+}
+
+.David button {
+    border-radius: 200px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    box-shadow: 0 0 10px blue;
+}
+
+.Loïc button:hover {
+    background: grey;
+    transform: translateY(-5px);
+}
+
+.David button:hover {
+    background: grey;
+    transform: translateY(-5px);
+}
+
+.commun {
+    text-align:center;
+    
+}
+
+.commun button {
+    border-radius: 200px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    box-shadow: 0 0 10px green;
+}
+
+.commun button:hover {
+    background:grey;
+    transform:translateY(-5px);
+}
