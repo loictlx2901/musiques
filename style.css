@@ -74,3 +74,16 @@ p {
     background:grey;
     transform:translateY(-5px);
 }
+
+.nem button{
+    border-radius: 200px;
+    background-color:aquamarine;
+    border:none;
+    padding: 10px 50px;   
+
+}
+
+.nem button:hover {
+    background-color:red;
+    transform: TranslateY(-5px);
+}
